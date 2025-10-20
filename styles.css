@@ -1,2 +1,88 @@
 
 /* Your CSS Code here. */
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Navigation styling */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content styling */
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .skills {
+            margin-top: 30px;
+        }
+
+        .skills h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .skills ul {
+            display: block;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-left: 4px solid #333;
+        }
+
+        .skills li {
+            padding: 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
